@@ -50,7 +50,7 @@
    
    
  <target name="warfile">
-<war destfile="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\OnPremTOCloud.war" webxml="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\WebContent\WEB-INF\web.xml">
+<war destfile="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\JavaHelloWorldApp.war" webxml="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\WebContent\WEB-INF\web.xml">
 <!--Give the WebContent folder path-->
 <fileset dir="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\WebContent">
 <include name="**/*.*"/>
