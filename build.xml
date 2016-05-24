@@ -49,16 +49,15 @@
    
    
    
-   <target name="warfile">
-<war destfile="C:\Users\miracle\Desktop\OnPremTOCloud(1)\OnPremTOCloud.war" webxml="C:\Users\miracle\Desktop\OnPremTOCloud(1)\WebContent\WEB-INF\web.xml">
+ <target name="warfile">
+<war destfile="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\OnPremTOCloud.war" webxml="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\WebContent\WEB-INF\web.xml">
 <!--Give the WebContent folder path-->
-<fileset dir="C:\Users\miracle\Desktop\OnPremTOCloud(1)\WebContent">
+<fileset dir="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\WebContent">
 <include name="**/*.*"/>
 </fileset>
 <!--Give the lib folder path-->
 <!--Give the classes folder path-->
-<classes dir="C:\Users\miracle\Desktop\OnPremTOCloud(1)\src\com\ibm\cloudoe\samples"/>
+<classes dir="C:\Users\miracle\.jenkins\workspace\CI_CD_Bluemix\src\com\ibm\cloudoe\samples"/>
 </war>
-</target>	
-
+</target>
 </project>
